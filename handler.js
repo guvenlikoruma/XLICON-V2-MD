@@ -108,13 +108,13 @@ export async function handler(chatUpdate) {
             } else {
                 global.db.data.users[m.sender] = {
                     exp: 0,
-                    credit: 0,
+                    kredi: 0,
                     bank: 0,
                     chicken: 0,
                     lastclaim: 0,
                     registered: false,
-                    name: m.name,
-                    age: -1,
+                   isim: m.name,
+                    yaş: -1,
                     regTime: -1,
                     afk: -1,
                     afkReason: '',
@@ -576,7 +576,7 @@ export async function participantsUpdate({
                         contextInfo: {
                         mentionedJid: [user],
                         externalAdReply: {
-                        title: "XLICON-V2",
+                        title: "𝓚𝓡𝓐𝓛 𝓕𝓐𝓢𝓗𝓘̇𝓞𝓝 𝓑𝓞𝓣",
                         body: "welcome to our Group",
                         thumbnailUrl: welcomeApiUrl,
                         sourceUrl: 'https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk',
