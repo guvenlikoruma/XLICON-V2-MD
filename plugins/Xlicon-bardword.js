@@ -12,7 +12,7 @@ export async function before(m, { isAdmin, isBotAdmin }) {
             // Remove the participant from the group
             global.db.data.users[m.sender].warn += 1
             await this.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: m.key.id, participant: m.key.participant }})
-            await this.reply(m.chat, '⛔ *Bad words are forbidden by group admins.*', m)
+            await this.reply(m.chat, '⛔ *Kötü sözler grup yöneticileri tarafından yasaklanmıştır.*', m)
         } else {
             await this.reply(m.chat, '😬 *I\'m not an admin here!*', m)
         }
