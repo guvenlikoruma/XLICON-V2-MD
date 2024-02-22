@@ -11,15 +11,15 @@ let handler = async (m, { conn, text, args, groupMetadata, usedPrefix, command }
         if (warn < war) {
             global.db.data.users[who].warn += 1
             m.reply(`
-⚠️ *Warned User* ⚠️
+⚠️ *Uyarılan Kullanıcı* ⚠️
 
 ▢ *Admin:* ${name}
-▢ *User:* @${who.split`@`[0]}
-▢ *Warns:* ${warn + 1}/${war}
-▢ *Reason:* ${text}`, null, { mentions: [who] }) 
+▢ *Kullanıcı:* @${who.split`@`[0]}
+▢ *Uyarılar:* ${warn + 1}/${war}
+▢ *Sebep:* ${text}`, null, { mentions: [who] }) 
             m.reply(`
 ⚠️ *caution* ⚠️
-You received a warning from an admin
+Bir yöneticiden uyarı aldınız
 
 ▢ *Warns:* ${warn + 1}/${war} 
 if you receive *${war}* warnings you will be automatically removed from the group`, who)
