@@ -16,19 +16,19 @@ export async function before(m, { isAdmin, isBotAdmin }) {
     if (chat.antiToxic && isAntiToxic) {
         var analysisResult = await Analyze(m.text)
         var toxicityLevels = [
-            "❤️  ❤️  ❤️  ❤️  ❤️", // Very friendly and welcoming
-            "☠️  ❤️  ❤️  ❤️  ❤️", // Mildly toxic, is it fun?
-            "☠️  ☠️  ❤️  ❤️  ❤️", // A bit toxic, calm down!
-            "☠️  ☠️  ☠️  ❤️  ❤️", // Quite toxic, you can relax!
-            "☠️  ☠️  ☠️  ☠️  ❤️", // Highly toxic, be careful!
+            "❤️  ❤️  ❤️  ❤️  ❤️", // Çok dost canlısı ve misafirperver
+            "☠️  ❤️  ❤️  ❤️  ❤️", // Biraz toxic, eğlenceli mi?
+            "☠️  ☠️  ❤️  ❤️  ❤️", // Biraz toxic, sakin ol!
+            "☠️  ☠️  ☠️  ❤️  ❤️", // Oldukça toxic, rahatlayabilirsiniz!
+            "☠️  ☠️  ☠️  ☠️  ❤️", // Çok toxic, dikkatli olun!
             "☠️  ☠️  ☠️  ☠️  ☠️"   // Extremely toxic!
         ];
         var toxicityVerdict = [
-            "You are so friendly. Very welcoming to know you!",
-            "You are not too toxic, is it fun?",
-            "You appear to be toxic. Calm down!",
-            "Don't be so toxic. You can relax!",
-            "There's nothing more I could say, you're totally the most toxic person in the world!",
+            "Sen çok arkadaş canlısın. Seni tanımak çok hoş!",
+            "Fazla toxic değilsin, eğlenceli mi?",
+            "Toxic görünüyorsun. Sakin ol!",
+            "Bu kadar toxic olmayın. Rahatlayabilirsin!",
+            "Söyleyebileceğim başka bir şey yok, sen kesinlikle dünyadaki en toxic insansın!",
             "Your toxic meter also goes above 100%."
         ];
 
@@ -50,7 +50,7 @@ export async function before(m, { isAdmin, isBotAdmin }) {
 
         var caption = `*[ TOXIC STRENGTH ]*\n\n${toxicityLevels[toxicityIndex]}\n${toxicityVerdict[toxicityIndex]}\n`
         
-        await this.reply(m.chat, `*Bad Words Detected!*\n ${caption} ${isBotAdmin ? '' : '\n\n_Bot is not admin_'}`, m)
+        await this.reply(m.chat, `*Kötü Sözler Tespit Edildi!*\n ${caption} ${isBotAdmin ? '' : '\n\n_Bot is not admin_'}`, m)
 
         if (isBotAdmin) {
             // Remove the participant from the group
