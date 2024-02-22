@@ -18,28 +18,24 @@ import {
   「 ${botname} 🎁XMD 」\n
   *%ucpn*
 ⍟────────────────⍟
-*REMEMBER THIS BOT IS FOR*
-*EDUCATIONAL PERPOSES*
+*BU BOTUN ŞUNLAR İÇİN OLDUĞUNU UNUTMAYIN*
+*EĞİTİM AMAÇLı*
 ⍟────────────────⍟
-*©Salman Ahmand*
+*kral fashion*
 ⍟────────────────⍟
-*_Konnichiwa! Its XLICON-MD A_* 
-*_Multi-Device Whatsapp BOT_*
-*_Recoded By Salman Ahmad And Abraham Dwamena_*
+*_HOŞGELDİN 𝓚𝓡𝓐𝓛 𝓕𝓐𝓢𝓗𝓘̇𝓞𝓝 𝓑𝓞𝓣_* 
+*_𝓚𝓡𝓐𝓛 𝓕𝓐𝓢𝓗𝓘̇𝓞𝓝 Whatsapp BOT_*
+*_Recoded By KRALFASHİON_*
 ⍟────────────────⍟
                                     
- ▀▄▀ █░░ █ █▀▀ █▀█ █▄░█  
- █░█ █▄▄ █ █▄▄ █▄█ █░▀█  
-          
- █▀▄▀█ █▀▄
- █░▀░█ █▄▀
+𝓚𝓡𝓐𝓛 𝓕𝓐𝓢𝓗𝓘̇𝓞𝓝 𝓑𝓞𝓣
  
 ╭─────────────────⦿
 ┃    🔰〘 𝙄𝙉𝙁𝙊 〙🔰
 ╰┬────────────────⦿
 ┌┤
 ┃
-┃ *_Founder_*: Salman Ahmad 
+┃ *_Founder_*: 𝙈𝙀𝙃𝙈𝙀𝙏 𝘼𝙑𝘾𝙄
 ┃ *_Bot Name_*: ${botname}
 ┃ *_Mode_*: %mode
 ┃ *_HOST_*: kali Linix
@@ -57,7 +53,7 @@ import {
 ┃
 ┃ *_Name_*: %name
 ┃ *_Gold_*: %credit
-┃ *_Role_*: XLICON-MD-TESTER
+┃ *_Role_*: 𝓚𝓡𝓐𝓛 𝓕𝓐𝓢𝓗𝓘̇𝓞𝓝 𝓑𝓞𝓣
 ┃ *_Level_*: %level [ %xp4levelup Xp For Levelup]
 ┃ *_Xp_*: %exp / %maxexp
 ┃ *_Total Xp_*: %totalexp
@@ -249,7 +245,7 @@ import {
   let h = isNaN(ms) ? "--" : Math.floor(ms / 3600000) % 24
   let m = isNaN(ms) ? "--" : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? "--" : Math.floor(ms / 1000) % 60
-  return [ye, " *Years 🗓️*\n", mo, " *Month 🌙*\n", d, " *Days ☀️*\n", h, " *Hours 🕐*\n", m, " *Minute ⏰*\n", s, " *Second ⏱️*"].map(v => v.toString().padStart(2, 0)).join("")
+  return [ye, " *Yıl 🗓️*\n", mo, " *Ay 🌙*\n", d, " *Gün ☀️*\n", h, " *Saat 🕐*\n", m, " *Dakika ⏰*\n", s, " *Saniye ⏱️*"].map(v => v.toString().padStart(2, 0)).join("")
  }
  
  function ucapan() {
