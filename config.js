@@ -55,7 +55,7 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = 'XLICON-V2'
+global.botname = '𝐊𝐑𝐀𝐋 𝐅𝐀𝐒𝐇𝐈̇𝐎𝐍 𝐁𝐎𝐓'
 global.premium = 'true'
 global.packname = '𝓚𝓡𝓐𝓛 𝓕𝓐𝓢𝓗𝓘̇𝓞𝓝' 
 global.author = 'MADE BY KRAL' 
@@ -69,7 +69,7 @@ global.fglog = 'XLICON.jpg'
 global.thumb = fs.readFileSync('./XLICON.jpg')
 
 
-global.wait = '*🕣 _XLICON IS LOADIND..._*\n*▰▰▰▱▱▱▱▱⭐*'
+global.wait = '*🕣 _𝐊𝐑𝐀𝐋 𝐅𝐀𝐒𝐇𝐈̇𝐎𝐍 𝐁𝐎𝐓 IS LOADIND..._*\n*▰▰▰▱▱▱▱▱⭐*'
 global.rwait = '⌛'
 global.dmoji = '🤭'
 global.done = '✔️'
