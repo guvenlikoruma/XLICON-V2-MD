@@ -8,17 +8,17 @@ let handler = async (message, {
   text: inputText
 }) => {
   if (!inputText && !(message.quoted && message.quoted.text)) {
-    throw "Please provide some text or quote a message to get a response.";
+    throw "Yanıt almak için lütfen bir metin girin veya bir mesajdan alıntı yapın.";
   }
   if (!inputText && message.quoted && message.quoted.text) {
     inputText = message.quoted.text;
   }
-  message.reply("Waiting Response from Xlicon-v2 Bot server...");
+  message.reply("𝓚𝓡𝓐𝓛 𝓕𝓐𝓢𝓗𝓘̇𝓞𝓝 Bot sunucusundan Yanıt Bekleniyor...");
   message.react('🤔');
   const encodedText = encodeURIComponent(inputText);
   let response = await Bing(encodedText);
   if (!response) {
-    throw new Error("No valid JSON response from Bing ");
+    throw new Error("Bing'den geçerli bir JSON yanıtı yok ");
   }
   await connection.reply(message.chat, response, message);
 };
