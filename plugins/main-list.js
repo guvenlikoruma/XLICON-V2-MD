@@ -10,17 +10,17 @@ let handler = async (m, { conn, usedPrefix, command}) => {
       switch (command) {
         case 'list':
 lkr = "*Get excited, here are your options:*\n\n" +
-"🤖 *" + usedPrefix + "botmenu* - The Bot's secret control panel. What's your command, oh great one?\n\n" +
-"👑 *" + usedPrefix + "ownermenu* - The sacred scroll only for the chosen one. Yep, that's you, Boss!\n\n" +    
-"🧑‍🤝‍🧑 *" + usedPrefix + "groupmenu* - Group shenanigans central! Unite, chat, conquer!\n\n" +  
-"📥 *" + usedPrefix + "dlmenu* - 'DL' stands for 'Delicious Loot'. Come grab your goodies!\n\n" +   
-"🎉 *" + usedPrefix + "funmenu* - The bot's party hat. Games, jokes and instant ROFLs. Let's get this party started!\n\n" +   
-"💰 *" + usedPrefix + "economymenu* - Bling bling! Your personal vault of virtual economy. Spend or save? Choose wisely!\n\n" +    
-"🎮 *" + usedPrefix + "gamemenu* - Enter the gaming arena. May the odds be ever in your favor!\n\n" +     
-"🎨 *" + usedPrefix + "stickermenu* - A rainbow of stickers for your inner artist. Make your chats pop!\n\n" +    
-"🧰 *" + usedPrefix + "toolmenu* - Your handy-dandy toolkit. What's your pick, genius?\n\n" +    
-"🎩 *" + usedPrefix + "logomenu* - Create a logo that screams YOU. Or whispers. You choose the volume.\n\n" +    
-"🌙 *" + usedPrefix + "nsfwmenu* - The After Dark menu. But remember, sharing adult secrets must be consent-based.";
+"🤖 *" + usedPrefix + "botmenu* - Bot'un gizli kontrol paneli. Emrin nedir, ah harika olan?\n\n" +
+"👑 *" + usedPrefix + "ownermenu* - Kutsal tomar yalnızca seçilen kişi içindir. Evet, bu sensin, Patron!\n\n" +    
+"🧑‍🤝‍🧑 *" + usedPrefix + "groupmenu* - Grup maskaralıkları merkezi! Birleşin, sohbet edin, fethedin!\n\n" +  
+"📥 *" + usedPrefix + "dlmenu* - 'DL' 'Lezzetli Yağma' anlamına gelir. Gelin, güzelliklerinizi alın!\n\n" +   
+"🎉 *" + usedPrefix + "funmenu* - Botun parti şapkası. Oyunlar, şakalar ve anlık ROFL'ler. Hadi bu partiyi başlatalım!\n\n" +   
+"💰 *" + usedPrefix + "economymenu* - Pırıl pırıl! Kişisel sanal ekonomi kasanız. Harcamak mı yoksa tasarruf etmek mi? Akıllıca seçim!\n\n" +    
+"🎮 *" + usedPrefix + "gamemenu* - Oyun alanına girin. Şans sonsuza dek sizinle olsun!\n\n" +     
+"🎨 *" + usedPrefix + "stickermenu* - İçinizdeki sanatçı için gökkuşağı çıkartmaları. Sohbetlerinizi canlı hale getirin!\n\n" +    
+"🧰 *" + usedPrefix + "toolmenu* - Kullanışlı züppe araç takımınız. Senin seçimin hangisi, dahi?\n\n" +    
+"🎩 *" + usedPrefix + "logomenu* - SİZİ haykıran bir logo yaratın. Veya fısıldıyor. Sesi siz seçersiniz.\n\n" +    
+"🌙 *" + usedPrefix + "nsfwmenu* - Karanlıktan Sonra menüsü. Ancak yetişkinlerin sırlarını paylaşmanın rızaya dayalı olması gerektiğini unutmayın.";
 break;
 
           
@@ -30,8 +30,8 @@ break;
         case 'botmenu':
           lkr = `
 ╭─────────────────⍟
-┃  Xlicon 𝘽𝙊𝙏 𝙈𝙀𝙉𝙐  
-╰───Xlicon─────────⍟   
+┃  krαl fαshí̇σn 𝘽𝙊𝙏 𝙈𝙀𝙉𝙐  
+╰───krαl fαshí̇σn─────────⍟   
 
 ┏━━━ʕ•㉨•ʔ━━━
 ┃➣🗂️ _${usedPrefix}gita_
@@ -52,8 +52,8 @@ break;
         case 'ownermenu':
           lkr = `
 ╭─────────────────⍟
-┃ Xlicon 𝙊𝙒𝙉𝙀𝙍 𝙈𝙀𝙉𝙐  
-╰───Xlicon─────────⍟
+┃ krαl fαshí̇σn 𝙊𝙒𝙉𝙀𝙍 𝙈𝙀𝙉𝙐  
+╰───krαl fαshí̇σn─────────⍟
 
 ┏━━━ʕ•㉨•ʔ━━━┓
 ┃➣📁 _${usedPrefix}banchat_
@@ -73,8 +73,8 @@ break;
           case 'groupmenu':
           lkr = `
 ╭─────────────────⍟
-┃ Xlicon 𝙂𝙍𝙊𝙐𝙋 𝙈𝙀𝙉𝙐 
-╰───Xlicon─────────⍟
+┃ krαl fαshí̇σn 𝙂𝙍𝙊𝙐𝙋 𝙈𝙀𝙉𝙐 
+╰───krαl fαshí̇σn─────────⍟
 
 ┏━━━ʕ•㉨•ʔ━━━┓🤖
 ┃➣👾_${usedPrefix}kick *<@tag>*_
@@ -99,8 +99,8 @@ break;
             case 'dlmenu' :
           lkr = `
 ╭─────────────────⍟
-┃ Xlicon 𝘿𝙇📱 𝙈𝙀𝙉𝙐 
-╰───Xlicon─────────⍟
+┃ krαl fαshí̇σn 𝘿𝙇📱 𝙈𝙀𝙉𝙐 
+╰───krαl fαshí̇σn─────────⍟
 
 ┏━━━ʕ•㉨•ʔ━━━┓
 ┃➣📡 _${usedPrefix}play_
@@ -125,8 +125,8 @@ break;
           case 'economymenu':
           lkr = `
 ╭─────────────────⍟
-┃Xlicon 𝙀𝘾𝙊𝙉𝙊𝙈𝙔 
-╰───Xlicon─────────⍟
+┃krαl fαshí̇σn 𝙀𝘾𝙊𝙉𝙊𝙈𝙔 
+╰───krαl fαshí̇σn─────────⍟
 
 ┏━━━ʕ•㉨•ʔ━━━┓
 ┃➣👑 _${usedPrefix}claim/daily_
@@ -151,8 +151,8 @@ break;
           case 'funmenu':
           lkr = `
 ╭─────────────────⍟
-┃ Xlicon 𝙁𝙐𝙉 𝙈𝙀𝙉𝙐
-╰───Xlicon─────────⍟
+┃ krαl fαshí̇σn 𝙁𝙐𝙉 𝙈𝙀𝙉𝙐
+╰───krαl fαshí̇σn─────────⍟
 
 ┏━━━ʕ•㉨•ʔ━━━┓
 ┃➣👻 _${usedPrefix}character_
@@ -173,8 +173,8 @@ break;
           case 'animemenu':
           lkr = `
 ╭─────────────────⍟
-┃ Xlicon 𝐴𝑁𝐼𝑀𝐸 𝑀𝐸𝑁𝑈
-╰───Xlicon─────────⍟
+┃ krαl fαshí̇σn 𝐴𝑁𝐼𝑀𝐸 𝑀𝐸𝑁𝑈
+╰───krαl fαshí̇σn─────────⍟
 
 ┏━━━ʕ•㉨•ʔ━━━┓
 ┃➣❄️ _${usedPrefix}waifu_
@@ -219,8 +219,8 @@ break;
           case 'gamemenu':
           lkr = `
 ╭─────────────────⍟
-┃ Xlicon 𝙂𝘼𝙈𝙀 𝙈𝙀𝙉𝙐 
-╰───Xlicon─────────⍟
+┃krαl fαshí̇σn 𝙂𝘼𝙈𝙀 𝙈𝙀𝙉𝙐 
+╰───krαl fαshí̇σn─────────⍟
 
 ┏━━━ʕ•㉨•ʔ━━━┓
 ┃➣🎮 _${usedPrefix}tictactoe_
@@ -237,8 +237,8 @@ break;
           case 'stickermenu':
           lkr = `
 ╭─────────────────⍟
-┃ Xlicon 𝙎𝙏𝙄𝘾𝙆𝙀𝙍 𝙈𝙀𝙉𝙐
-╰───Xlicon─────────⍟
+┃ krαl fαshí̇σn 𝙎𝙏𝙄𝘾𝙆𝙀𝙍 𝙈𝙀𝙉𝙐
+╰───krαl fαshí̇σn─────────⍟
 
 ┏━━━ʕ•㉨•ʔ━━━┓
 ┃➣👾 _${usedPrefix}sticker_
@@ -318,8 +318,8 @@ break;
           case 'toolmenu':
           lkr = `
 ╭─────────────────⍟
-┃ Xlicon 𝙏𝙊𝙊𝙇𝙎 𝙈𝙀𝙉𝙐
-╰───Xlicon─────────⍟
+┃ кяαℓ fαѕнι̇σи 𝙏𝙊𝙊𝙇𝙎 𝙈𝙀𝙉𝙐
+╰───кяαℓ fαѕнι̇σи─────────⍟
 
 ┏━━━ʕ•㉨•ʔ━━━┓
 ┃➣🧰 _${usedPrefix}autosticker_
